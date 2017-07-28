@@ -1,0 +1,32 @@
+* { margin: 0px; padding: 0px; }
+html { height: 100%; }
+body { background-color: #c6ffb3; font-family: Georgia; }
+#container { width: 100%; }
+#header { width: 100%; height: 20%; background-color: #997a00; 
+			color: #e0b3ff; padding: 15px;
+			box-sizing: border-box;
+}
+#lefty { width: 25%; float: left; background-color: #b3f0ff;
+			height: 80%; padding: 15px;
+}	
+#lefty #menu { list-style: none; }
+#lefty #menu li { list-style: none; width: 100%; }
+#lefty #menu li:hover { background-color: #ffcce6; }
+#lefty #menu li a { text-decoration: none; color: maroon; }
+#lefty #menu li a:hover { color: #0059b3; }
+
+#workspace { margin: 0px 0px 0px 30%; padding-top: 10px;
+				position: relative;
+}
+#top-menu { position: absolute; top: 10px; right: 10px; }
+#top-logo { position: absolute; top: 10px; right: 10px; width: 8%; height: 16%;}
+
+#workspace p .course td { 	
+	padding-right: 20px;
+}
+.search { width: 70%; }
+
+.tbl-search { width: 100%; margin-top: 20px; font-size: 11px; }
+.tbl-search thead tr th { background-color: #33ff33; padding: 5px; }
+.center { text-align: center; font-size: 13px;}
+.tbl-search thead tr td { font-size: 13px; }
