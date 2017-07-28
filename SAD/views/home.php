@@ -1,16 +1,18 @@
 <html>
 	<head>
-		<title>BFF</title>		
+		<title>Brighten flower & fruits</title>		
 		<link rel = "stylesheet" type = "text/css" href = "../views/css/default.css" />		
 	</head>
 	<body>
 		<!--lol-->
-		<div id="login">
-				<a href="">Signup</a>
-				<a href="">Login</a>
-		</div>
+		<header id="header">
+			<div id="login">
+					<a href="">Signup</a>
+					<a href="">Login</a>
+			</div>	
+		</header>
 		<div id="banner">
-			Insert banner here
+			-insert banner here
 		</div>
 		<div id="bff">
 			Brighten flowers & fruits
@@ -19,7 +21,7 @@
 			include "../views/includes/menu1.php";
 		?>
 
-		<div id="navimage">
+		<div id="navilogo">
 			navigator logo
 		</div>
 		<div id="workspace">			
@@ -37,7 +39,7 @@
 		</div>
 		
 		<div id="footer">
-			footer
+			-insert footer here
 		</div>
 	</body>
 </html>

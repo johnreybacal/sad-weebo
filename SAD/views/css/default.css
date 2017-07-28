@@ -1,79 +1,132 @@
 /* style.css */
 html{
+	box-sizing: border-box;
+
 	height: 100%;
 }
+
 body{
-	background-color: #FAF58A;
+	background-color: #36FF87;
 	font-family: impact;
-	font-size: 20px;
+	font-size: 18px;
+	box-sizing: content-box; 
+
+	width: 100%;
+	margin: 0px;
+}
+
+#header{
+	background-color: #777;
 	box-sizing: border-box;
+
+	height: 45px;
+	width: 100%
+}
+
+#login{
+	padding-top: 15px;
+	margin-right: 38px;
 }
 #login a{
-	text-decoration: none;
-	margin-right: 20px;
 	float: right;
+	color: white;
+	text-decoration: none;
+
+	margin-right: 20px;
 }
+
 #banner{
-	clear: right;
-	border: 1px solid;
-	width: 90%;
-	height: 45%;
-	margin: auto;
-	margin-top: 20px;
 	box-sizing: border-box;
+	border: 1px solid;
+	
+	width: 93%;
+	height: 45%;
+	position: relative;
+	margin: auto;
+	margin-right: 38px;
+	margin-left: 38px;
 }
+
 #bff{
-	font-size: 30px;
-	padding: 10px;
+	font-size: 50px;
+	color: #FF0F6E;
+
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	margin: 0px;
 	text-align: center;
 }
+
+#navigator{
+	background-color: #47B294;
+}
 #navigator ul{
+	line-height: 50px;
+
+	width: 50%;
+	height: 50px;
 	margin: 0px;
-	margin-left: 260px;
+	margin-left: 300px;
 }
 #navigator ul li{
-	list-style: none;
-	margin: 0px;
-	padding: 5px;
-	height: 25px;
-	background-color: #555;
 	float: left;
+	list-style: none;
+
+	height: 40px;
 }
 #navigator ul li a{
 	font-size: 20px;
 	text-decoration: none;
-	margin-left: 30px;
-	padding: 10px;
 	color: white;
+
+	margin-top: 20px;
+	padding: 20px;
 }
-#navimage{
+#navigator ul li a:hover{
+	background-color: #36FF87;
+	color: #FF3399;
+}
+
+#navilogo{
+	border: 1px solid;
+	
 	width: 120px;
 	margin-left: 100px;
-	border: 1px solid;
 }
+
 #workspace{
+	border: 1px solid;
+
 	width: 90%;
 	height: 60%;
 	margin: auto;
-	border: 1px solid;
 }
+
 .content{
+	float: left;
+	border: 1px solid;
+
 	width: 370px;
 	height: 80%;
 	margin-left: 33px;
-	float: left;
-	border: 1px solid;
 }
+
 #news{
 	float: right;
+	border: 1px solid;
+
 	width: 300px;
 	height: 80%;
-	border: 1px solid;
 }
+
 #footer{
 	clear: left;
+	background-color: #555;
+	color: white;
+	box-sizing: border-box;
+
 	width: 100%;
 	height: 10%;
 	margin: 0px;
-	border: 1px solid;
 }

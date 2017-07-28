@@ -16,7 +16,7 @@
 			include "../views/includes/menu1.php";
 		?>
 
-		<div id="navimage">
+		<div id="navilogo">
 			navigator logo
 		</div>
 		<div id="workspace">			
