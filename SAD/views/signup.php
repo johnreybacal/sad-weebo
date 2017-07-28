@@ -5,6 +5,7 @@
 	</head>
 	<body>
 		<div id="login">
+			<a href="">Signup</a>
 			<a href="">Login</a>
 		</div>
 		
