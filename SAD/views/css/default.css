@@ -1,1 +1,46 @@
 /* style.css */
+html{
+	height: 100%;
+}
+body{
+	width: 100%;
+	font-family: ;
+	background-color: #FAF58A;
+}
+#banner{
+	border: 1px solid;
+	width: 80%;
+	height: 40%;
+	margin: auto;
+	margin-top: 20px;
+}
+#navigator ul{
+	margin: 0px;
+	margin-left: 23%;
+}
+#navigator ul li{
+	list-style: none;
+	margin: 0px;
+	padding: 5px;
+	height: 30px;
+	background-color: #555;
+	float: left;
+}
+#navigator ul li a{
+	font-size: 25px;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+}
+#login a{
+	margin-right: 100px;
+}
+#navimage{
+	
+}
+.content{
+	
+}
+#news{
+	
+}
