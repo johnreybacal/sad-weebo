@@ -3,44 +3,77 @@ html{
 	height: 100%;
 }
 body{
-	width: 100%;
-	font-family: ;
 	background-color: #FAF58A;
+	font-family: impact;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+#login a{
+	float: right;
+	text-decoration: none;
+	margin-right: 20px;
 }
 #banner{
+	clear: right;
 	border: 1px solid;
-	width: 80%;
-	height: 40%;
+	width: 90%;
+	height: 45%;
 	margin: auto;
 	margin-top: 20px;
+	box-sizing: border-box;
+}
+#bff{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
 }
 #navigator ul{
 	margin: 0px;
-	margin-left: 23%;
+	margin-left: 260px;
 }
 #navigator ul li{
 	list-style: none;
 	margin: 0px;
 	padding: 5px;
-	height: 30px;
+	height: 25px;
 	background-color: #555;
 	float: left;
 }
 #navigator ul li a{
-	font-size: 25px;
+	font-size: 20px;
 	text-decoration: none;
+	margin-left: 30px;
 	padding: 10px;
 	color: white;
 }
-#login a{
-	margin-right: 100px;
-}
 #navimage{
-	
+	width: 120px;
+	margin-left: 100px;
+	border: 1px solid;
+}
+#workspace{
+	width: 90%;
+	height: 60%;
+	margin: auto;
+	border: 1px solid;
 }
 .content{
-	
+	width: 370px;
+	height: 80%;
+	margin-left: 33px;
+	float: left;
+	border: 1px solid;
 }
 #news{
-	
+	float: right;
+	width: 300px;
+	height: 80%;
+	border: 1px solid;
+}
+#footer{
+	clear: left;
+	width: 100%;
+	height: 10%;
+	margin: 0px;
+	border: 1px solid;
 }
