@@ -4,6 +4,7 @@
 		<link rel = "stylesheet" type = "text/css" href = "../views/css/default.css" />		
 	</head>
 	<body>
+		<!--lol-->
 		<div id="login">
 				<a href="signup.php">Signup</a>
 				<a href="">Login</a>
