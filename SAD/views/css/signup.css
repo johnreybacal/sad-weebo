@@ -55,20 +55,26 @@ body{
 	width: 90%;
 	height: 60%;
 	margin: auto;
+	background-color: #C7FFC7;
 	border: 1px solid;
 }
 .content{
-	width: 370px;
+	width: 450px;
 	height: 80%;
 	margin-left: 33px;
 	float: left;
 	border: 1px solid;
 }
-#news{
-	float: right;
-	width: 300px;
+#sign{
+	width: 500px;
 	height: 80%;
+	margin-left: 100px;
+	float: left;
 	border: 1px solid;
+}
+#sign #signform{
+	padding: 15%;
+	text-align: center-left;
 }
 #footer{
 	clear: left;
