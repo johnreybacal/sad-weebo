@@ -6,7 +6,7 @@
 	<body>
 		<!--lol-->
 		<div id="login">
-				<a href="signup.php">Signup</a>
+				<a href="">Signup</a>
 				<a href="">Login</a>
 		</div>
 		<div id="banner">
