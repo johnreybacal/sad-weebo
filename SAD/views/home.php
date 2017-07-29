@@ -26,15 +26,15 @@
 		</div>
 		<div id="workspace">			
 			<div class="content">
-				-content
+				-insert content here
 			</div>
 			
 			<div class="content">
-				-content
+				-insert content here
 			</div>
 			
 			<div id="news">
-				news
+				-insert news here
 			</div>
 		</div>
 		

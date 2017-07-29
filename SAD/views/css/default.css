@@ -6,7 +6,7 @@ html{
 }
 
 body{
-	background-color: #36FF87;
+	background-color: #FFFA94;
 	font-family: impact;
 	font-size: 18px;
 	box-sizing: content-box; 
@@ -34,6 +34,11 @@ body{
 
 	margin-right: 20px;
 }
+#login a:hover{
+	color: #FF3399;
+
+	height: 40px;
+}
 
 #banner{
 	box-sizing: border-box;
@@ -48,11 +53,12 @@ body{
 }
 
 #bff{
+	position: absolute;
 	font-size: 50px;
 	color: #FF0F6E;
 
 	position: absolute;
-	top: 45%;
+	top: 46%;
 	left: 30%;
 	margin: 0px;
 	text-align: center;
@@ -60,20 +66,26 @@ body{
 
 #navigator{
 	background-color: #47B294;
+
+
+	width: 93%;
+	margin-right: 38px;
+	margin-left: 38px;
 }
 #navigator ul{
-	line-height: 50px;
+	line-height: 55px;
 
-	width: 50%;
+	width: 70%;
 	height: 50px;
 	margin: 0px;
-	margin-left: 300px;
+	margin-left: 200px;
 }
 #navigator ul li{
 	float: left;
 	list-style: none;
 
 	height: 40px;
+	padding-left: 30px;
 }
 #navigator ul li a{
 	font-size: 20px;
@@ -84,32 +96,35 @@ body{
 	padding: 20px;
 }
 #navigator ul li a:hover{
-	background-color: #36FF87;
+	background-color: #FFFA94;
 	color: #FF3399;
 }
 
 #navilogo{
+	position: absolute;
+	top: 350px;
 	border: 1px solid;
 	
 	width: 120px;
-	margin-left: 100px;
+	margin-left: 108px;
 }
 
 #workspace{
-	border: 1px solid;
 
-	width: 90%;
+	width: 93%;
 	height: 60%;
 	margin: auto;
+	margin-right: 38px;
+	margin-left: 38px;
 }
 
 .content{
 	float: left;
 	border: 1px solid;
 
-	width: 370px;
-	height: 80%;
-	margin-left: 33px;
+	width: 430px;
+	height: 100%;
+	margin-right: 40px;
 }
 
 #news{
@@ -117,7 +132,7 @@ body{
 	border: 1px solid;
 
 	width: 300px;
-	height: 80%;
+	height: 100%;
 }
 
 #footer{
