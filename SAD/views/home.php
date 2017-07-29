@@ -2,7 +2,7 @@
 	<head>
 		<title>Brighten flower & fruits</title>		
 		<link rel = "stylesheet" type = "text/css" href = "../views/css/default.css" />		
-	</head>
+	</head?
 	<body>
 		<!--lol-->
 		<header id="header">
