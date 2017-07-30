@@ -1,0 +1,85 @@
+/* style.css */
+html{
+	height: 100%;
+}
+body{
+	background-color: #FAF58A;
+	font-family: impact;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+#login a{
+	text-decoration: none;
+	margin-right: 20px;
+	float: right;
+}
+#banner{
+	clear: right;
+	border: 1px solid;
+	width: 90%;
+	height: 45%;
+	margin: auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+#bff{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+}
+#navigator ul{
+	margin: 0px;
+	margin-left: 260px;
+}
+#navigator ul li{
+	list-style: none;
+	margin: 0px;
+	padding: 5px;
+	height: 25px;
+	background-color: #555;
+	float: left;
+}
+#navigator ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 30px;
+	padding: 10px;
+	color: white;
+}
+#navimage{
+	width: 120px;
+	margin-left: 100px;
+	border: 1px solid;
+}
+#workspace{
+	width: 90%;
+	height: 60%;
+	margin: auto;
+	background-color: #C7FFC7;
+	border: 1px solid;
+}
+.content{
+	width: 450px;
+	height: 80%;
+	margin-left: 33px;
+	float: left;
+	border: 1px solid;
+}
+#sign{
+	width: 500px;
+	height: 80%;
+	margin-left: 100px;
+	float: left;
+	border: 1px solid;
+}
+#sign #signform{
+	padding: 15%;
+	text-align: center-left;
+}
+#footer{
+	clear: left;
+	width: 100%;
+	height: 10%;
+	margin: 0px;
+	border: 1px solid;
+}
